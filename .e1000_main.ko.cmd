@@ -1,0 +1,1 @@
+cmd_/home/egor/lab2/e1000_main.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.5.0-37-generic/scripts/module-common.lds --build-id  -o /home/egor/lab2/e1000_main.ko /home/egor/lab2/e1000_main.o /home/egor/lab2/e1000_main.mod.o
